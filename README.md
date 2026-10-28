@@ -29,3 +29,12 @@ See the "LICENSE" file for the project's licensing terms.
 
 # Release Date
 Releasing Under 1 Week I Will Upload A Pre Release Tommorow (Oct 29) But Not Downloadable Library Like Python In Pre Release 
+
+# Icon
+<p align="center">
+  <img src="images/FY_icon.png"
+       alt="FY Programming Language"
+       width="1280"
+       height="640"
+       style="display: block; margin: auto;" />
+</p>
