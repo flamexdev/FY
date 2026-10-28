@@ -35,6 +35,6 @@ Releasing Under 1 Week I Will Upload A Pre Release Tommorow (Oct 29) But Not Dow
   <img src="images/FY_icon.png"
        alt="FY Programming Language"
        width="640"
-       height="320"
+       height="640"
        style="display: block; margin: auto;" />
 </p>
