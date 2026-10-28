@@ -1,0 +1,52 @@
+<svg width="800" height="800" viewBox="0 0 800 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="800" fill="#000000"/>
+
+  <defs>
+    <linearGradient id="purpleGrad" x1="150" y1="120" x2="560" y2="560" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5B5CE6"/>
+      <stop offset="0.45" stop-color="#564BE1"/>
+      <stop offset="1" stop-color="#362E78"/>
+    </linearGradient>
+    <linearGradient id="greenGrad" x1="240" y1="300" x2="660" y2="760" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#46F0D7"/>
+      <stop offset="0.6" stop-color="#35DFD5"/>
+      <stop offset="1" stop-color="#1AB3B3"/>
+    </linearGradient>
+    <linearGradient id="metalStroke" x1="100" y1="80" x2="720" y2="720" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#A8F2FF" stop-opacity="0.8"/>
+      <stop offset="0.5" stop-color="#DAD7FF" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#A4FFF9" stop-opacity="0.7"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <g filter="url(#glow)">
+    <path d="M150 277C150 169 227 94 334 94H470C580 94 660 169 660 277V280C660 383 577 451 470 451H390C292 451 217 382 217 294V256C217 236 232 221 252 221H340C325 236 316 250 316 270V295C316 345 348 374 388 374H447C531 374 584 430 584 500V541C584 618 526 669 447 669H334C233 669 150 594 150 495V277Z" fill="url(#purpleGrad)"/>
+    <path d="M313 332C413 281 533 278 652 332C670 340 685 355 685 375V531C685 608 617 669 540 669H401C327 669 260 617 260 547V494C260 426 317 374 391 374H453C524 374 581 328 581 270C581 236 552 211 517 211H421C364 211 311 248 281 298L313 332Z" fill="url(#greenGrad)"/>
+
+    <path d="M150 277C150 169 227 94 334 94H470C580 94 660 169 660 277V280C660 383 577 451 470 451H390C292 451 217 382 217 294V256C217 236 232 221 252 221H340C325 236 316 250 316 270V295C316 345 348 374 388 374H447C531 374 584 430 584 500V541C584 618 526 669 447 669H334C233 669 150 594 150 495V277Z" stroke="url(#metalStroke)" stroke-width="10" stroke-linejoin="round"/>
+    <path d="M313 332C413 281 533 278 652 332C670 340 685 355 685 375V531C685 608 617 669 540 669H401C327 669 260 617 260 547V494C260 426 317 374 391 374H453C524 374 581 328 581 270C581 236 552 211 517 211H421C364 211 311 248 281 298L313 332Z" stroke="url(#metalStroke)" stroke-width="10" stroke-linejoin="round"/>
+
+    <g opacity="0.28" fill="#D9FDFF">
+      <ellipse cx="395" cy="194" rx="58" ry="42"/>
+      <ellipse cx="581" cy="540" rx="68" ry="48"/>
+    </g>
+
+    <g opacity="0.84" fill="#F4F7FF">
+      <path d="M308 225H470V274H376V319H456V365H376V436H308V225Z"/>
+      <path d="M470 225H528L596 315L529 405H470L538 315L470 225Z"/>
+      <path d="M521 442H581V518H528V549H479V518H439V465H475L521 442Z"/>
+    </g>
+
+    <g opacity="0.16">
+      <rect x="174" y="141" width="124" height="18" rx="9" fill="#D9F0FF"/>
+      <rect x="520" y="600" width="120" height="18" rx="9" fill="#E5FFFA"/>
+    </g>
+  </g>
+</svg>
