@@ -31,9 +31,9 @@ See the "LICENSE" file for the project's licensing terms.
 Releasing Under 1 Week, PreRelease Is Here, How To Install 
 
 - Step 1
-``` git clone ```
+Clone It ``` git clone https://github.com/flamexdev/FY.git ```
 - Step 2
-``` cd FY ```
+``` cd FY ``` Then ``` cd InstallManually ``` 
 - Step 3
 Run This Command:
 ``` ./build.sh ```
