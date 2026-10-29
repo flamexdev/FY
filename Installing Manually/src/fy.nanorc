@@ -1,0 +1,9 @@
+syntax "FY" "\.fy$"
+
+color brightblack "#.*$"
+color brightgreen "'([^'\\]|\\.)*'|\"([^\"\\]|\\.)*\""
+color brightyellow "\<[0-9]+([.][0-9]+)?\>"
+color brightcyan "\<(True|False|None)\>"
+color brightblue "\<(and|or|not|in|if|elif|else|for|while|def|pass|return|break|>
+color brightmagenta "\<(print|len|range|str|int|float|type)\>"
+color brightred "\*\*|//|==|!=|<=|>=|[+*/%<>=()-]"
