@@ -28,7 +28,16 @@ See the "LICENSE" file for the project's licensing terms.
 
 
 # Release Date
-Releasing Under 1 Week I Will Upload A Pre Release Tommorow (Oct 29) But Not Downloadable Dependencies Like Python In Pre Release 
+Releasing Under 1 Week, PreRelease Is Here, How To Install 
+
+- Step 1
+``` git clone ```
+- Step 2
+``` cd FY ```
+- Step 3
+Run This Command:
+``` ./build.sh ```
+And Done Use It Using fy Like This fy example.fy
 
 # Icon
 <p align="center">
