@@ -28,7 +28,7 @@ See the "LICENSE" file for the project's licensing terms.
 
 
 # Release Date
-Releasing Under 1 Week I Will Upload A Pre Release Tommorow (Oct 29) But Not Downloadable Library Like Python In Pre Release 
+Releasing Under 1 Week I Will Upload A Pre Release Tommorow (Oct 29) But Not Downloadable Dependencies Like Python In Pre Release 
 
 # Icon
 <p align="center">
