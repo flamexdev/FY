@@ -1,0 +1,22 @@
+#!/data/data/com.termux/files/usr/bin/bash
+set -e
+DIR="$(cd "$(dirname "$0")" && pwd)"
+
+case "${1:-}" in
+  --help|-h)
+    echo "FY - Python-compatible launcher"
+    echo "Usage: fy [--compat|--vm] FILE.fy"
+    exit 0
+    ;;
+  --compat)
+    shift
+    exec python3 "$@"
+    ;;
+  --vm)
+    shift
+    exec "$DIR/fy_vm" "$@"
+    ;;
+  *)
+    exec python3 "$@"
+    ;;
+esac
