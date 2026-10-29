@@ -33,8 +33,10 @@ Releasing Under 1 Week, PreRelease Is Here, How To Install
 - Step 1
 Clone It ``` git clone https://github.com/flamexdev/FY.git ```
 - Step 2
-``` cd FY ``` Then ``` cd Installing Manually ``` 
+``` cd FY ``` Then ``` cd 'Installing Manually' ``` 
 - Step 3
+Give Permissions To All Files ``` chmod +x * ```
+- Step 4
 Run This Command:
 ``` ./build.sh ```
 And Done Use It Using fy Like This fy example.fy
