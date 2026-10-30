@@ -1,6 +1,7 @@
 # FY — Programming Language
 
 FY is a Python-inspired programming language designed to be faster, more advanced, and smarter, with the goal of improving upon Python's simplicity and capabilities.
+### about.sh Is For Information If Installed It And You Don't Want Open The GitHub Page For Info So You Can Just Get By Running IT 
 
 ## General Information
 
